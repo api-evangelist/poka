@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+url: https://trust.poka.io/
+platform: Vanta
+evidence:
+  - source: dns
+    detail: trust.poka.io CNAME -> 69306f4cf86dbbb938cdaf3a.cname.vantatrust.com (Vanta-hosted Trust Center)
+  - source: https://trust.poka.io/
+    detail: live 200; Vanta Trust Center single-page app ("Poka Trust Center")
+  - source: https://www.poka.io/en/security-privacy-compliance
+    detail: Security & Compliance page referencing Security Overview, SLA, Master SaaS Agreement, Acceptable Use Policy; security contact infosec@poka.io
+# Named certifications are served by the Vanta SPA via authenticated/JS-rendered data and
+# were not machine-verifiable at probe time; left empty rather than fabricated.
+certifications: []
+contact: [infosec@poka.io]

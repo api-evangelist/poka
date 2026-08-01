@@ -1,7 +1,14 @@
 aid: poka
 name: Poka
-description: Poka is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Poka is a manufacturing-focused connected worker platform that helps industrial
+  and frontline teams standardize work execution across learning, daily management,
+  and operations. It combines digital work instructions, on-the-job training, skills
+  management, and factory-floor knowledge sharing with embedded Industrial AI. Poka
+  exposes a RESTful Poka API for building integrations with third-party systems
+  (MES, CMMS, LMS, QMS, ERP, BI), SCIM for automated user provisioning from identity
+  providers, the Poka Automate iPaaS, and a Poka Data Lake for BI/reporting. Poka is
+  part of IFS and runs regionally in the US, Canada, and EU.
 url: https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,45 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://pokaio.s3.ca-central-1.amazonaws.com/transforms/_1200x630_crop_center-center_82_none/OG.jpg
 tags:
 - Company
-apis: []
+- Manufacturing
+- Connected Worker
+- Frontline Operations
+- Industrial
+- Workforce Training
+- Integrations
+- SaaS
+apis:
+- name: Poka API
+  description: >-
+    RESTful Poka API for building integrations with third-party manufacturing and
+    enterprise systems, plus SCIM for automated user provisioning. Developer/API
+    documentation is delivered per-tenant (behind login); no public OpenAPI is
+    published.
+  humanURL: https://www.poka.io/en/integrations
+  properties:
+  - type: Conformance
+    url: conformance/poka-conformance.yml
+  - type: APIReference
+    url: https://api-docs.poka.io/
+  - type: Documentation
+    url: https://api-docs.poka.io/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -23,3 +63,40 @@ maintainers:
 common:
 - type: Website
   url: https://www.poka.io
+- type: DeveloperPortal
+  url: https://api-docs.poka.io/
+- type: GettingStarted
+  url: https://www.poka.io/en/how-to-get-started
+- type: SignUp
+  url: https://www.poka.io/en/book-a-demo
+- type: Support
+  url: https://www.poka.io/en/customer-support
+- type: Blog
+  url: https://www.poka.io/en/blog
+- type: Pricing
+  url: https://www.poka.io/en/pricing
+- type: StatusPage
+  url: https://www.pokastatus.io/
+- type: Security
+  url: https://www.poka.io/en/security-privacy-compliance
+- type: TrustCenter
+  url: https://trust.poka.io/
+- type: TermsOfService
+  url: https://www.poka.io/en/website-terms-and-conditions-of-use
+- type: PrivacyPolicy
+  url: https://www.iubenda.com/privacy-policy/45914112
+- type: Lifecycle
+  url: lifecycle/poka-lifecycle.yml
+- type: Conformance
+  url: conformance/poka-conformance.yml
+- type: DomainSecurity
+  url: security/poka-domain-security.yml
+- type: WellKnown
+  url: well-known/poka-well-known.yml
+- type: LLMsTxt
+  url: llms/poka-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

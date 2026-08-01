@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.poka.io/en/integrations
+standards:
+  - id: rest
+    conforms: true
+    evidence: "Integrations page: 'Poka API' offers RESTful APIs to build integrations with any third-party system."
+  - id: scim2
+    conforms: true
+    evidence: "Integrations page: 'Poka SCIM' enables integration with Identity Providers supporting SCIM for automated user provisioning."
+  - id: oauth2
+    conforms: false
+    evidence: "Not confirmed on a public surface; API auth model is documented per-tenant / behind login."

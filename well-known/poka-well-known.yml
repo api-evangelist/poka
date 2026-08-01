@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+host: https://www.poka.io
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+# No /.well-known discovery documents are served on the public marketing host.
+# The application/API surface is delivered per-tenant (e.g. *.okpoka.com) and was not
+# probed for well-known files. Absence is valid, expected data.

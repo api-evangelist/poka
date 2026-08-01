@@ -1,0 +1,26 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.pokastatus.io/
+status_page: https://www.pokastatus.io/
+status_feeds:
+  atom: https://www.pokastatus.io/history.atom
+  rss: https://www.pokastatus.io/history.rss
+status_components:
+  - Customer instances
+  - Mobile applications (iOS, Android, Windows)
+  - Analytics (Snowflake, Looker)
+  - DNS
+  - Databases (US, Canada, EU)
+  - Storage (US, Canada, EU)
+  - Caches (US, Canada, EU)
+  - Video transcoding (US, Canada, EU)
+  - Notifications (Email, iOS push)
+  - Support (chat, help center, API documentation)
+sla:
+  url: https://www.poka.io/en/security-privacy-compliance
+  note: Service Level Agreement referenced on the Security & Compliance page (document behind request).
+# Versioning and deprecation policy are not published on a public developer surface
+# (Poka API docs are delivered per-tenant / behind login); not recorded to avoid fabrication.
+versioning: null
+deprecation: null
+deprecated_operations: []

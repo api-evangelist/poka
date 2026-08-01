@@ -1,0 +1,34 @@
+# Poka
+
+> Poka is a manufacturing-focused connected worker platform (part of IFS) that helps industrial and frontline teams standardize work execution across learning, daily management, and operations. It combines digital work instructions, on-the-job training, skills management, and factory-floor knowledge sharing with embedded Industrial AI. Poka exposes a RESTful Poka API for integrations with third-party systems (MES, CMMS, LMS, QMS, ERP, BI), SCIM for automated user provisioning, the Poka Automate iPaaS, and a Poka Data Lake for BI/reporting. Developer/API documentation is delivered per-tenant and via a password-gated reference portal; no public OpenAPI is published.
+
+## APIs
+
+- [Poka API](https://www.poka.io/en/integrations): RESTful API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning.
+- [Poka API Reference](https://api-docs.poka.io/): Official API documentation portal (password-gated).
+
+## Docs
+
+- [Integrations overview](https://www.poka.io/en/integrations): iPaaS, API, Data Lake and SCIM integration options with CMMS, MES, LMS, QMS, ERP and BI systems.
+- [Getting started](https://www.poka.io/en/how-to-get-started): How to get started with Poka.
+- [Connected Worker Platform](https://www.poka.io/en/connected-worker-platform): Product overview.
+- [Security, Privacy & Compliance](https://www.poka.io/en/security-privacy-compliance): Security overview, SLA, and compliance posture.
+- [Trust Center](https://trust.poka.io/): Vanta-hosted trust center.
+- [Customer Support](https://www.poka.io/en/customer-support): Help center and support channels.
+- [Blog](https://www.poka.io/en/blog): Poka blog.
+- [Pricing](https://www.poka.io/en/pricing): Pricing information.
+- [Status](https://www.pokastatus.io/): Service status page (US, Canada, EU instances).
+
+## Catalog artifacts
+
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/conformance/poka-conformance.yml): Standards conformance (REST, SCIM 2.0).
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/lifecycle/poka-lifecycle.yml): Status page, feeds, and SLA references.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/security/poka-domain-security.yml): TLS/HSTS/DNSSEC/SPF/DMARC probe results.
+- [Trust center](https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/security/poka-trust-center.yml): Vanta trust center reference.
+- [Well-known](https://raw.githubusercontent.com/api-evangelist/poka/refs/heads/main/well-known/poka-well-known.yml): .well-known discovery probe index.
+
+## Meta
+
+- Company: Poka (part of IFS)
+- Regions: United States, Canada, European Union
+- Type: Connected worker platform / manufacturing operations
