@@ -27,7 +27,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 image: https://pokaio.s3.ca-central-1.amazonaws.com/transforms/_1200x630_crop_center-center_82_none/OG.jpg
