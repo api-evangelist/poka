@@ -1,13 +1,17 @@
 generated: '2026-07-20'
 method: searched
 host: https://www.poka.io
-documents:
+hosts:
+- host: https://www.poka.io
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
     status: 404
   - path: /.well-known/api-catalog
     status: 404
-# No /.well-known discovery documents are served on the public marketing host.
-# The application/API surface is delivered per-tenant (e.g. *.okpoka.com) and was not
-# probed for well-known files. Absence is valid, expected data.
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
