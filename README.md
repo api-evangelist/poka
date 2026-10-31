@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Poka is a company surfaced as a portfolio company of uncork-capital and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Poka is a manufacturing-focused connected worker platform that helps industrial and frontline teams standardize work execution across learning, daily management, and operations. It combines digital work instructions, on-the-job training, skills management, and factory-floor knowledge sharing with embedded Industrial AI. Poka exposes a RESTful Poka API for building integrations with third-party systems (MES, CMMS, LMS, QMS, ERP, BI), SCIM for automated user provisioning from identity providers, the Poka Automate iPaaS, and a Poka Data Lake for BI/reporting. Poka is part of IFS and runs regionally in the US, Canada, and EU.
 
-Backed by: uncork-capital — https://www.poka.io
+**Areas:** Company · Manufacturing · Connected Worker · Frontline Operations · Industrial · Workforce Training · Integration · Software-as-a-Service
+
+## Poka on APIs.io
+
+Everything profiled for Poka is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/poka/](https://apis.io/providers/poka/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Poka API](https://apis.io/apis/poka/poka-api/) — RESTful Poka API for building integrations with third-party manufacturing and enterprise systems, plus SCIM for automated user provisioning. Developer/API…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Poka Domain Security](https://apis.io/security/poka/poka-domain-security/)
+- [Poka Trust Center](https://apis.io/security/poka/poka-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.poka.io)
+- [Getting started](https://www.poka.io/en/how-to-get-started)
+- [Pricing](https://www.poka.io/en/pricing)
+- [Sign up](https://www.poka.io/en/book-a-demo)
+- [Support](https://www.poka.io/en/customer-support)
+- [Blog](https://www.poka.io/en/blog)
+- [Security](https://www.poka.io/en/security-privacy-compliance)
+- [Trust centre](https://trust.poka.io/)
+- [Terms of service](https://www.poka.io/en/website-terms-and-conditions-of-use)
+- [Privacy policy](https://www.iubenda.com/privacy-policy/45914112)
+- [Status](https://www.pokastatus.io/)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/poka/](https://apis.io/providers/poka/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Poka: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/poka/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
